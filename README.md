@@ -1,8 +1,8 @@
 # weather_bot
-Emails weather updates to those who are subscribed using Python
+Emails weather updates to those who are subscribed using Python <br/>
 Subscribe [here](https://morningdew437318790.wordpress.com/2021/01/04/project-weather-email-bot/)
 ## How it works
- - Subscribed users are stored on Google Sheet 
+ - Subscribed users are stored on a Google Sheet (which is connected to a Google Form)
  - Google sheet information mapped to internal_users.csv with more relevant information
 	- Selenium used to generate link from which weather forecasts are taken
  - Daily, main.py is run to send emails to those who are subscribed 
