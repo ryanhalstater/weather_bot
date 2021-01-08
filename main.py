@@ -230,7 +230,7 @@ def unfix_zip(row):
     return row
 
 def get_csvs_synched(new_users_to_add):
-    df = pd.DataFrame(new_users_to_add, columns=['timestamp', 'email', 'zip', 'settings'])
+    df = pd.DataFrame(new_users_to_add, columns=['timestamp', 'email', 'zip'])
     df.head(5)
 
     def map_settings_to_bin(row):
